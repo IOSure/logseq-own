@@ -24,6 +24,12 @@
             alt="Download Logseq"/></a>
 </p>
 
+<p>
+Fork的时间为2025-02026
+对应的master的版本为: 最新修改时间为：Apr 23, 2024    
+Desktop/Android APP 0.10.9 (Beta Testing)
+</p>
+
 <!-- social badges -->
 <p align="center">
     <a href="https://discuss.logseq.com">
