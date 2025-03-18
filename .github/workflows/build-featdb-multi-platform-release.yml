@@ -41,7 +41,7 @@ env:
   CLOJURE_VERSION: '1.11.1.1413'
   NODE_VERSION: '20'
   JAVA_VERSION: '11'
-  GIT_BRANCH: 'feat/db'
+  GIT_BRANCH: 'master'
 
 jobs:
   sync-branch:
@@ -63,8 +63,8 @@ jobs:
         run: |
           git remote add upstream https://github.com/logseq/logseq.git
           git fetch upstream
-          git merge upstream/${{ env.GIT_BRANCH }} --no-edit
-          git push origin ${{ env.GIT_BRANCH }}
+          git merge upstream/master --no-edit
+          git push origin master
           
       - name: Skip sync for manual triggers
         if: ${{ github.event_name != 'schedule' }}
