@@ -34,8 +34,8 @@ on:
         type: boolean
         required: true
         default: true
-  schedule: # UTC
-    - cron: '0 0 * * *'
+  # schedule: # UTC
+  #   - cron: '0 0 * * *'
 
 env:
   CLOJURE_VERSION: '1.11.1.1413'
